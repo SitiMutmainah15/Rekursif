@@ -17,6 +17,13 @@ public class Percobaan2 {
         System.out.println("Pangkat: ");
         int pangkat = sc.nextInt();
 
-        System.out.println(hitungPangkat(bilangan, pangkat));
+        System.out.print("Hitung pangkat: ");
+        for (int i = 0; i < pangkat; i++) {
+            System.out.print(bilangan + "x");
+        }
+        System.out.print("1"); 
+
+        int hasil = hitungPangkat(bilangan, pangkat);
+        System.out.println(" = " + hasil);
     }
 }
